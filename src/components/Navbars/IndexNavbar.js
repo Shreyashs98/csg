@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import { Link } from "react-router-dom";
-import IndexDropdown from "../Dropdowns/IndexDropdown.js";
+// import IndexDropdown from "../Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -32,19 +32,19 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-600 text-blueGray-800 px-4 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index-navbar"
+                  href="https://www.cybersafegirl.com/learning-lab/tailwind/react/overview/notus?ref=nr-index-navbar"
                 >
                   <i className="text-blueGray-500 far fa-file-alt text-xl leading-lg mr-2" />
                   Docs
                 </a>
-              </li>
+              </li> */}
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
-                <IndexDropdown />
+                {/* <IndexDropdown /> */}
               </li>
               <li className="flex items-center">
                 <a

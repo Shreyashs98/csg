@@ -67,19 +67,12 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                        href="https://www.cybersafegirl.com/presentation?ref=nr-footer"
                       >
                         About Us
                       </a>
                     </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=nr-footer"
-                      >
-                        Blog
-                      </a>
-                    </li>
+                    
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -91,7 +84,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer"
+                        href="https://www.cybersafegirl.com/bootstrap-themes/free?ref=nr-footer"
                       >
                         Free Products
                       </a>
@@ -103,14 +96,7 @@ export default function Footer() {
                     Other Resources
                   </span>
                   <ul className="list-unstyled">
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer"
-                      >
-                        MIT License
-                      </a>
-                    </li>
+                    
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -146,10 +132,10 @@ export default function Footer() {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()} CYBER SAFE GIRL by{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer"
+                  href="https://www.cybersafegirl.com?ref=nr-footer"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Creative Tim
+                  Cybersafegirl
                 </a>
                 .
               </div>

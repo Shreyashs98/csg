@@ -92,7 +92,7 @@ export default function Index() {
               Cyber Safe Campus a unique program under the aegis of the national project Cyber Safe Girl - Beti Bachao Cyber Crime Se’. However, we are keen to educate young students nationwide on cybercrime and hence this eLearning program.
               </p>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
+                href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
@@ -117,7 +117,7 @@ export default function Index() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
@@ -132,7 +132,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -147,7 +147,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -164,7 +164,7 @@ export default function Index() {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
@@ -179,7 +179,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -194,7 +194,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                    href="https://www.cybersafegirl.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -255,7 +255,7 @@ export default function Index() {
                 </span>
               </div>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
+                href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
@@ -591,7 +591,7 @@ export default function Index() {
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
+                  href="https://www.cybersafegirl.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
