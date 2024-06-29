@@ -33,7 +33,7 @@ export default function Home() {
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
+                    using CYBER SAFE GIRL. It features multiple CSS components based
                     on the Tailwind CSS design system.
                   </p>
                 </div>
@@ -130,7 +130,7 @@ export default function Home() {
                   JavaScript.
                 </p>
                 <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                  Check CYBER SAFE GIRL!
                 </Link>
               </div>
 

@@ -17,10 +17,10 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus React - A beautiful extension for Tailwind CSS.
+                CYBER SAFE GIRL - A beautiful extension for Tailwind CSS.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus React is Free and Open Source. It does not change any of
+                CYBER SAFE GIRL is Free and Open Source. It does not change any of
                 the CSS from{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
@@ -123,7 +123,7 @@ export default function Index() {
                         CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus React comes with a huge number of Fully Coded CSS
+                        CYBER SAFE GIRL comes with a huge number of Fully Coded CSS
                         components.
                       </p>
                     </div>
@@ -166,7 +166,7 @@ export default function Index() {
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         Built by developers for developers. You will love how
-                        easy is to to work with Notus React.
+                        easy is to to work with CYBER SAFE GIRL.
                       </p>
                     </div>
                   </div>
@@ -497,7 +497,7 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus React is a completly new product built using our past
+              CYBER SAFE GIRL is a completly new product built using our past
               experience in web templates. Take the examples we made for you and
               start playing with them.
             </p>
