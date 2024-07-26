@@ -4,13 +4,10 @@ import { Link } from "react-router-dom";
 import IndexNavbar from "../components/Navbars/IndexNavbar.js";
 import Footer from "../components/Footers/Footer.js";
 import Example from "../components/Modal/EbookLang.js";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Index() {
-    const handleClick = () => {
-        window.open('https://drive.google.com/file/d/1n1wobZm-Pb1cVp2Qs5LV_mA8mJ1dYjBy/view?usp=sharing', '_blank');
-      };
   return (
-    
     <>
       <IndexNavbar fixed />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
@@ -18,27 +15,28 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-              Welcome to Cyber Safe Girl
+                Welcome to Cyber Safe Girl
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-              Cyber Safe Girl is a unique program inspired by the honorable Prime Minister Narendra Modi ji's "Beti Bachao, Beti Padhao". The mission of this project is- "Beti Bachao Cyber Crime Se", designed to inculcate the best practices of responsible browsing and stay safe and secure from the cyber threats, especially among the students, elderly and working professionals. Internet is a double edged sword- therefore, it is important to know the perils of internet browsing and the cyber laws associated. The vision of the project is to ensure #CyberSafeIndia.
+                Cyber Safe Girl is a unique program inspired by the honorable
+                Prime Minister Narendra Modi ji's "Beti Bachao, Beti Padhao".
+                The mission of this project is- "Beti Bachao Cyber Crime Se",
+                designed to inculcate the best practices of responsible browsing
+                and stay safe and secure from the cyber threats, especially
+                among the students, elderly and working professionals. Internet
+                is a double edged sword- therefore, it is important to know the
+                perils of internet browsing and the cyber laws associated. The
+                vision of the project is to ensure #CyberSafeIndia.
               </p>
               <div className="mt-12">
-                {/* <Example/> */}
-               <button
-      className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-      onClick={handleClick}
-    >
-      Download E-Book
-    </button>
-      <Link
-        to="/auth/login"
-        className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                
-      >
-        Get Certification
-      </Link>
-    </div>
+                <Example />
+                <Link
+                  to="/auth/login"
+                  className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                >
+                  Get Certification
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -70,38 +68,41 @@ export default function Index() {
             ></polygon>
           </svg>
         </div>
-       
 
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-              About Us
+                About Us
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              We are a group of young professionals with in-depth knowledge into Cyber Security and Cyber Crimes.
+                <strong>
+                  We are a group of young professionals with in-depth knowledge
+                  into Cyber Security and Cyber Crimes.
+                </strong>
               </p>
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-sitemap text-xl"></i>
+              <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-white">
+                <img className="fas fa-sitemap text-xl rounded-full w-20 h-20" src="https://data.sahyadri.edu.in/main/profile_pictures/WhatsApp%20Image%202021-06-04%20at%2012.47.29%20PM.jpeg"></img>
               </div>
-              <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              It all started with the penchant desire of the curator and resource person Dr Ananth Prabhu G, PhD, PDF, to help the young girls and women to engage with responsible browsing on the internet. The idea was given a shape by building Info toons to help students and women easily understand various Cybercrimes committed on a daily basis. We have received unstinted support from the seniors at Karnataka Police to curate the initial program.
+              <p className="text-md font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                It all started with the penchant desire of the curator and
+                resource person Dr Ananth Prabhu G, PhD, PDF, to help the young
+                girls and women to engage with responsible browsing on the
+                internet. The idea was given a shape by building Info toons to
+                help students and women easily understand various Cybercrimes
+                committed on a daily basis. We have received unstinted support
+                from the seniors at Karnataka Police to curate the initial
+                program.
               </p>
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-sitemap text-xl"></i>
+              <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-white">
+                <img className="fas fa-sitemap text-xl rounded-full w-20 h-20" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0M2Zr8ZE8OeL40hChz1xrRn1naeNPdN7fBWb5_IniKVYsf0dU"></img>
               </div>
-              <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              Cyber Safe Campus a unique program under the aegis of the national project Cyber Safe Girl - Beti Bachao Cyber Crime Se’. However, we are keen to educate young students nationwide on cybercrime and hence this eLearning program.
+              <p className="text-md font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                Cyber Safe Campus a unique program under the aegis of the
+                national project Cyber Safe Girl - Beti Bachao Cyber Crime Se’.
+                However, we are keen to educate young students nationwide on
+                cybercrime and hence this eLearning program.
               </p>
-              <a
-                href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View All{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -315,8 +316,8 @@ export default function Index() {
                         CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        CYBER SAFE GIRL comes with a huge number of Fully Coded CSS
-                        components.
+                        CYBER SAFE GIRL comes with a huge number of Fully Coded
+                        CSS components.
                       </p>
                     </div>
                   </div>
@@ -367,7 +368,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        
+
         <div className="container mx-auto px-4 pb-32 pt-48">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
