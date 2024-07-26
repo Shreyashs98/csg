@@ -1,6 +1,8 @@
 /* eslint-disable */
 import React from "react";
 import { Link } from "react-router-dom";
+import BasicExample from "../Dropdowns/EbookLang";
+import Example from "../Modal/EbookLang";
 // import IndexDropdown from "../Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
@@ -10,12 +12,12 @@ export default function Navbar(props) {
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-4 py-4 navbar-expand-lg bg-white shadow-lg">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Link
-              to="/"
+            <a
+              href="http://localhost:3000"
               className="text-blueGray-800 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             >
               CYBER SAFE GIRL
-            </Link>
+            </a>
             <button
               className="cursor-pointer text-2xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -83,12 +85,19 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <button
+                {/* <button
                   className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
-                </button>
+                  <i className="fas fa-arrow-alt-circle-down"></i> Download E-Book
+                </button> */}
+                <Example/>
+                <Link
+        to="/auth/login"
+        className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+        >
+        Get Certification
+      </Link>
               </li>
             </ul>
           </div>
