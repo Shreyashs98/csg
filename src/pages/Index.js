@@ -24,17 +24,16 @@ export default function Index() {
               Cyber Safe Girl is a unique program inspired by the honorable Prime Minister Narendra Modi ji's "Beti Bachao, Beti Padhao". The mission of this project is- "Beti Bachao Cyber Crime Se", designed to inculcate the best practices of responsible browsing and stay safe and secure from the cyber threats, especially among the students, elderly and working professionals. Internet is a double edged sword- therefore, it is important to know the perils of internet browsing and the cyber laws associated. The vision of the project is to ensure #CyberSafeIndia.
               </p>
               <div className="mt-12">
-                {/* <Example/> */}
-               <button
-      className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-      onClick={handleClick}
-    >
-      Download E-Book
-    </button>
+                <Example/>
+               {/* <button
+                className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                onClick={handleClick}
+              >
+                Download E-Book
+              </button> */}
       <Link
         to="/auth/login"
-        className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                
+        className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"                
       >
         Get Certification
       </Link>
