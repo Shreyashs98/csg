@@ -303,64 +303,67 @@ export default function Index() {
                 </blockquote>
               </div>
             </div>
-
+              
             <div className="w-full md:w-6/12 px-4">
+            <h3 className="text-3xl mb-1 font-semibold leading-normal flex justify-center">Our Associates</h3>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                      <img
+                        src="https://cybersafegirl.com/Images/govtOfKarnataka.png"
+                        alt="Govt. Of India"
+                        className="rounded-full w-full h-full"
+                      />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
+                        Govt. Of India
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
-                        CYBER SAFE GIRL comes with a huge number of Fully Coded
-                        CSS components.
-                      </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                      <img
+                        src="https://itquiz.in/wp-content/uploads/2017/07/ISEA_logo-300x298.png"
+                        alt="ISEA"
+                        className="rounded-full w-full h-full"
+                      />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
+                        ISEA
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
-                      </p>
                     </div>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                      <img
+                        src="https://cybersafegirl.com/Images/cyber-jagrithi.png"
+                        alt="Cyber Jagrithi"
+                        className="rounded-full w-full h-full"
+                      />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
-                      <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
-                      </p>
+                      <h6 className="text-xl mb-5 font-semibold flex justify-center">
+                        Cyber Jagrithi
+                      </h6>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                      <img
+                        src="https://cybersafegirl.com/Images/surePass.png"
+                        alt="SurePass Academy"
+                        className="rounded-full w-full h-full"
+                      />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
+                        SurePass Academy
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with CYBER SAFE GIRL.
-                      </p>
                     </div>
                   </div>
                 </div>
