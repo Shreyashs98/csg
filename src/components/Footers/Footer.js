@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll';
 
 export default function Footer() {
   return (
@@ -31,30 +32,38 @@ export default function Footer() {
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
-                <button
-                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-github"></i>
-                </button>
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2Feducatorananth">
+                  <button
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-twitter"></i>
+                  </button>
+                </a>
+                <a href="https://www.facebook.com/educatorananth/">
+                  <button
+                    className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-facebook-square"></i>
+                  </button>
+                </a>  
+                <a href="https://ananthprabhu.com/">
+                  <button
+                    className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-dribbble"></i>
+                  </button>
+                </a>
+                <a href="https://github.com/ashwinbekal">
+                  <button
+                    className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-github"></i>
+                  </button>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -64,19 +73,21 @@ export default function Footer() {
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.cybersafegirl.com/presentation?ref=nr-footer"
-                      >
-                        About Us
-                      </a>
-                    </li>
+                  <li>
+                    <Link
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      to="about-us"
+                      smooth={true}
+                      duration={500}
+                    >
+                      About Us
+                    </Link>
+                  </li>
                     
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nr-footer"
+                        href="https://www.github.com/ashwinbekal"
                       >
                         Github
                       </a>
@@ -130,14 +141,13 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} CYBER SAFE GIRL by{" "}
+                Copyright © {new Date().getFullYear()} CYBER SAFE GIRL.{" "}
                 <a
                   href="https://www.cybersafegirl.com?ref=nr-footer"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Cybersafegirl
+                  All Rights Reserved
                 </a>
-                .
               </div>
             </div>
           </div>
