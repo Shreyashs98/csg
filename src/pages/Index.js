@@ -5,6 +5,7 @@ import IndexNavbar from "../components/Navbars/IndexNavbar.js";
 import Footer from "../components/Footers/Footer.js";
 import Example from "../components/Modal/EbookLang.js";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import sp from "../assets/Images/sp.png";
 
 export default function Index() {
   return (
@@ -272,7 +273,7 @@ export default function Index() {
 
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-36">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
@@ -291,10 +292,10 @@ export default function Index() {
                       className="text-lightBlue-500 fill-current"
                     ></polygon>
                   </svg>
-                  <h4 className="text-xl font-bold text-white">
+                  <h4 className="text-xl font-bold text-dark">
                     Great for your awesome project
                   </h4>
-                  <p className="text-md font-light mt-2 text-white">
+                  <p className="text-md font-light mt-2 text-dark">
                     Putting together a page has never been easier than matching
                     together pre-made components. From landing pages
                     presentation to login areas, you can easily customise and
@@ -308,22 +309,19 @@ export default function Index() {
             <h3 className="text-3xl mb-1 font-semibold leading-normal flex justify-center">Our Associates</h3>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
-                  <div className="relative flex flex-col mt-4">
-                    <div className="px-4 py-5 flex-auto">
+                  <div className="relative flex flex-col">
+                    <div className="px-4 py-3 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
                       <img
                         src="https://cybersafegirl.com/Images/govtOfKarnataka.png"
-                        alt="Govt. Of India"
+                        alt="Government of Karnataka"
                         className="rounded-full w-full h-full"
                       />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
-                        Govt. Of India
-                      </h6>
                     </div>
                   </div>
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
+                  <div className="relative flex flex-col">
+                    <div className="px-4 py-1 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
                       <img
                         src="https://itquiz.in/wp-content/uploads/2017/07/ISEA_logo-300x298.png"
@@ -331,15 +329,23 @@ export default function Index() {
                         className="rounded-full w-full h-full"
                       />
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
-                        ISEA
-                      </h6>
                     </div>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 px-4">
-                  <div className="relative flex flex-col min-w-0 mt-4">
-                    <div className="px-4 py-5 flex-auto">
+                  <div className="relative flex flex-col">
+                    <div className="px-4 py-3 flex-auto">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                      <img
+                        src={sp}
+                        alt="SurePass"
+                        className="rounded-full w-full h-full"
+                      />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
                       <img
                         src="https://cybersafegirl.com/Images/cyber-jagrithi.png"
@@ -347,23 +353,6 @@ export default function Index() {
                         className="rounded-full w-full h-full"
                       />
                       </div>
-                      <h6 className="text-xl mb-5 font-semibold flex justify-center">
-                        Cyber Jagrithi
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
-                      <img
-                        src="https://cybersafegirl.com/Images/surePass.png"
-                        alt="SurePass Academy"
-                        className="rounded-full w-full h-full"
-                      />
-                      </div>
-                      <h6 className="text-xl mb-1 font-semibold flex justify-center">
-                        SurePass Academy
-                      </h6>
                     </div>
                   </div>
                 </div>
