@@ -1,13 +1,15 @@
 /*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import IndexNavbar from "../components/Navbars/IndexNavbar.js";
 import Footer from "../components/Footers/Footer.js";
 import Example from "../components/Modal/EbookLang.js";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import sp from "../assets/Images/sp.png";
+import girl from "../assets/Images/girl.png"
 
 export default function Index() {
+  const navigate = useNavigate();
   return (
     <>
       <IndexNavbar fixed />
@@ -30,13 +32,25 @@ export default function Index() {
                 vision of the project is to ensure #CyberSafeIndia.
               </p>
               <div className="mt-12">
-                <Example />
-                <Link
-                  to="/auth/login"
+                <Example/>
+                <button
                   className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)",
+                    transition:
+                      "transform 0.3s ease-in-out",
+                  }}
+                  onMouseEnter={(e)=>{
+                    e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                  }}
+                  onMouseLeave={(e)=>{
+                    e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg) "; 
+                  }}
+                  onClick={() => navigate('/auth/login')}
                 >
                   Get Certification
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -112,6 +126,18 @@ export default function Index() {
                   alt="..."
                   src="https://cybersafegirl.com/Images/MainCSG6.png"
                   className="w-full align-middle rounded-t-lg"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)",
+                    transition:
+                      "transform 0.3s ease-in-out",
+                  }}
+                  onMouseEnter={(e)=>{
+                    e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                  }}
+                  onMouseLeave={(e)=>{
+                    e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg) "; 
+                  }}
                 />
               </div>
             </div>
@@ -293,13 +319,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-dark">
-                    Great for your awesome project
+                    How our Associates help us?
                   </h4>
                   <p className="text-md font-light mt-2 text-dark">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                  Associates in the Cyber Safe Girl project play a crucial role in promoting cybersecurity awareness, educating communities on digital safety practices, and supporting initiatives that empower individuals to protect themselves online. They collaborate with teams to deliver impactful programs and resources that contribute to a safer digital environment.
                   </p>
                 </blockquote>
               </div>
@@ -430,7 +453,15 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                    "scale(1) perspective(1040px) rotateY(0deg) rotateX(50deg) rotate(0deg)",
+                  transition:
+                    "transform 0.3s ease-in-out",
+                }}
+                onMouseEnter={(e)=>{
+                  e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                }}
+                onMouseLeave={(e)=>{
+                  e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(-50deg) rotate(0deg) "; 
                 }}
                 src={require("../assets/img/documentation.png")}
               />
@@ -542,7 +573,12 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i className="fab fa-github text-blueGray-700 absolute -top-150-px -right-100 left-auto opacity-80 text-55"></i>
+              {/* <i className="fab fa-github text-blueGray-700 absolute -top-150-px -right-100 left-auto opacity-80 text-55"></i> */}
+              <img src={ girl } alt="..." 
+              style={{
+                transform:"scale(3) perspective(1080px) translate(80px, 30px) "
+              }}
+              />
             </div>
           </div>
         </div>
