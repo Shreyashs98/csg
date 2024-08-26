@@ -3,10 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BasicExample from "../Dropdowns/EbookLang";
 import Example from "../Modal/EbookLang";
+import { useNavigate } from "react-router-dom";
 // import IndexDropdown from "../Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const navigate = useNavigate();
   return (
     <>
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-4 py-4 navbar-expand-lg bg-white shadow-lg">
@@ -92,12 +94,25 @@ export default function Navbar(props) {
                   <i className="fas fa-arrow-alt-circle-down"></i> Download E-Book
                 </button> */}
                 <Example/>
-                <Link
-        to="/auth/login"
-        className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-        >
-        Get Certification
-      </Link>
+                <button
+                  to="/auth/login"
+                  className="bg-blueGray-700 text-white active:bg-blueGray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)",
+                    transition:
+                      "transform 0.3s ease-in-out",
+                  }}
+                  onMouseEnter={(e)=>{
+                    e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                  }}
+                  onMouseLeave={(e)=>{
+                    e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg) "; 
+                  }}
+                  onClick={() => navigate('auth/login')}
+                  >
+                  Get Certification
+                </button>
               </li>
             </ul>
           </div>

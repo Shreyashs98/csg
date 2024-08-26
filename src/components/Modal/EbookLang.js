@@ -11,7 +11,19 @@ function Example() {
   return (
     <>
       <button className="bg-lightBlue-500 text-white active:bg-lightBlue-500 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
- onClick={handleShow}>
+      onClick={handleShow}
+      style={{
+        transform:
+          "scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)",
+        transition:
+          "transform 0.3s ease-in-out",
+      }}
+      onMouseEnter={(e)=>{
+        e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+      }}
+      onMouseLeave={(e)=>{
+        e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg) "; 
+      }}>
         Download E-Book
       </button>
 
