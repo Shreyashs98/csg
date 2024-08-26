@@ -112,6 +112,18 @@ export default function Index() {
                   alt="..."
                   src="https://cybersafegirl.com/Images/MainCSG6.png"
                   className="w-full align-middle rounded-t-lg"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)",
+                    transition:
+                      "transform 0.3s ease-in-out",
+                  }}
+                  onMouseEnter={(e)=>{
+                    e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                  }}
+                  onMouseLeave={(e)=>{
+                    e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg) "; 
+                  }}
                 />
               </div>
             </div>
@@ -293,13 +305,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-dark">
-                    Great for your awesome project
+                    How our Associates help us?
                   </h4>
                   <p className="text-md font-light mt-2 text-dark">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                  Associates in the Cyber Safe Girl project play a crucial role in promoting cybersecurity awareness, educating communities on digital safety practices, and supporting initiatives that empower individuals to protect themselves online. They collaborate with teams to deliver impactful programs and resources that contribute to a safer digital environment.
                   </p>
                 </blockquote>
               </div>
@@ -430,7 +439,15 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                    "scale(1) perspective(1040px) rotateY(0deg) rotateX(50deg) rotate(0deg)",
+                  transition:
+                    "transform 0.3s ease-in-out",
+                }}
+                onMouseEnter={(e)=>{
+                  e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
+                }}
+                onMouseLeave={(e)=>{
+                  e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(-50deg) rotate(0deg) "; 
                 }}
                 src={require("../assets/img/documentation.png")}
               />
