@@ -576,7 +576,7 @@ export default function Index() {
               {/* <i className="fab fa-github text-blueGray-700 absolute -top-150-px -right-100 left-auto opacity-80 text-55"></i> */}
               <img src={ girl } alt="..." 
               style={{
-                transform:"scale(3) perspective(1080px) translate(80px, 30px) "
+                transform:"scale(1.9) perspective(1080px) translate(0px, 65px) "
               }}
               />
             </div>
