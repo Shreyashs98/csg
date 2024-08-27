@@ -7,12 +7,13 @@ import Example from "../components/Modal/EbookLang.js";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import sp from "../assets/Images/sp.png";
 import girl from "../assets/Images/girl.png"
+import isea from "../assets/Images/ISEA.png"
 
 export default function Index() {
   const navigate = useNavigate();
   return (
     <>
-      <IndexNavbar fixed />
+      <IndexNavbar fixed/>
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -143,8 +144,8 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center pt-32">
-            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
@@ -162,21 +163,7 @@ export default function Index() {
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
-                      </p>
-                    </div>
-                  </a>
+
                   <a
                     href="https://www.cybersafegirl.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                     target="_blank"
@@ -209,21 +196,7 @@ export default function Index() {
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.cybersafegirl.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
-                      </p>
-                    </div>
-                  </a>
+                  
                   <a
                     href="https://www.cybersafegirl.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
                     target="_blank"
@@ -243,70 +216,57 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+                Services
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We created a set of Components that are dynamic and come to help
-                you.
+                Cyber Safe Girl, is an E-Learning Program, containing 50+ animated info toons, explained in detail by Dr. Ananth Prabhu G.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  E-Learning Program
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  On Campus Workshops
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Swacch Devices
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                  Protection in Digital Era
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
+                  Security
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
+                  Cyber Crime Laws
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
+                  Cyber Safe Campus Certificate
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
+                  Cyber Safe Girl
                 </span>
               </div>
-              <a
-                href="https://www.cybersafegirl.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
+              
             </div>
           </div>
         </div>
 
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-36">
+            <div className="w-10/12 md:w-9/12 lg:w-4/12 px-2 md:px-4 mr-auto ml-auto -mt-36">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                   className="w-full align-middle rounded-t-lg"
                 />
-                <blockquote className="relative p-8 mb-4">
+                <blockquote className="relative p-8 mb-2">
                   <svg
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +288,7 @@ export default function Index() {
               </div>
             </div>
               
-            <div className="w-full md:w-6/12 px-4">
+            <div className="w-full md:w-12/12 lg:w-6/12 px-4">
             <h3 className="text-3xl mb-1 font-semibold leading-normal flex justify-center">Our Associates</h3>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
@@ -338,7 +298,7 @@ export default function Index() {
                       <img
                         src="https://cybersafegirl.com/Images/govtOfKarnataka.png"
                         alt="Government of Karnataka"
-                        className="rounded-full w-full h-full"
+                        className="rounded-full w-full h-full md:w-20"
                       />
                       </div>
                     </div>
@@ -347,8 +307,8 @@ export default function Index() {
                     <div className="px-4 py-1 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
                       <img
-                        src="https://itquiz.in/wp-content/uploads/2017/07/ISEA_logo-300x298.png"
-                        alt="ISEA"
+                        src={isea}
+                        alt="SurePass"
                         className="rounded-full w-full h-full"
                       />
                       </div>
@@ -461,9 +421,9 @@ export default function Index() {
                   e.currentTarget.style.transform="scale(1.1) perspective(1040px) rotateY(0deg) rotateX(0deg) rotate(0deg)";
                 }}
                 onMouseLeave={(e)=>{
-                  e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(-50deg) rotate(0deg) "; 
+                  e.currentTarget.style.transform="scale(1) perspective(1040px) rotateY(0deg) rotateX(50deg) rotate(0deg) "; 
                 }}
-                src={require("../assets/img/documentation.png")}
+                src={require("../assets/module-banners/module-1.png")}
               />
             </div>
           </div>
