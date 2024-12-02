@@ -304,8 +304,8 @@ export default function Index() {
                     </div>
                   </div>
                   <div className="relative flex flex-col">
-                    <div className="px-4 py-1 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full bg-white">
+                    <div className="px-4 py-1 flex-auto ">
+                      <div className="text-blueGray-500 p-3 bg-white text-center inline-flex items-center justify-center w-13 h-13 mb-5 shadow-lg rounded-full">
                       <img
                         src={isea}
                         alt="SurePass"
