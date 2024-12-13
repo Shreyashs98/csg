@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.main-content {
+  margin-top: 64px; /* Adjust according to the height of your navbar */
+}
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 56px; /* Adjust for smaller navbar on mobile */
+  }
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

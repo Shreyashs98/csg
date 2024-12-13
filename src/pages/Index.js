@@ -8,12 +8,14 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import sp from "../assets/Images/sp.png";
 import girl from "../assets/Images/girl.png"
 import isea from "../assets/Images/ISEA.png"
+import '../index.css';
 
 export default function Index() {
   const navigate = useNavigate();
   return (
     <>
       <IndexNavbar fixed/>
+      <div className="main-content">
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -603,6 +605,7 @@ export default function Index() {
           </div>
         </div>
       </section>
+      </div>
       <Footer />
     </>
   );
