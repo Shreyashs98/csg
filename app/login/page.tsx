@@ -33,6 +33,9 @@ function LoginForm() {
   const { login, isLoading } = useAuth();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("login");
+  const [isAuth , setIsAuth] = useState(false);
+
+  
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +43,7 @@ function LoginForm() {
 
     try {
       await login(email, password);
-      router.push("/");
+      router.push("/Dashboard");
     } catch (err) {
       setError("Invalid email or password. Please try again.");
     }
