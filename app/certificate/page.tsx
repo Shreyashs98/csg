@@ -5,6 +5,6 @@ export default function CertificatePage() {
   return (
     // <DashboardLayout>
       <Certificate />
-    {/* </DashboardLayout> */}
+  
   )
 }
