@@ -577,7 +577,9 @@ export default function HomePage() {
           >
             <button
               onClick={() => scrollToSection("about-us")}
-              className="flex flex-col items-center text-gray-500 hover:text-primary transition-colors"
+              className="flex flex-col items-center
+              translate-y-20
+              text-gray-500 hover:text-primary transition-colors"
               aria-label="Scroll down"
             >
               <span className="text-sm mb-2">Scroll Down</span>
@@ -589,7 +591,7 @@ export default function HomePage() {
         </section>
 
         {/* About Us Section */}
-        <section id="about-us" ref={aboutRef} className="py-20 bg-gray-100 dark:bg-gray-800 relative">
+        <section id="about-us" ref={aboutRef} className="py-20 bg-gray-100 dark:bg-gray-800 relative mt-10">
           <div className="container mx-auto overflow-hidden pb-20">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
