@@ -1,5 +1,6 @@
 "use client"
 
+import router from "next/router"
 import type React from "react"
 
 import { createContext, useContext, useState, useEffect } from "react"
@@ -62,6 +63,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = () => {
     setUser(null)
     localStorage.removeItem("user")
+    router.push("/")
   }
 
   return (

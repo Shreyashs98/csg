@@ -3,7 +3,7 @@
 import type React from "react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Shield, Eye, EyeOff, Mail, Lock } from "lucide-react";
+import { Shield, Eye, EyeOff, Mail, Lock, ChevronLeft, Scale } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -87,8 +87,17 @@ function LoginForm() {
         backgroundBlendMode: "multiply", // Allows the blueGray-800 color to blend with the image
       }}
     >
-      <Card className="w-full max-w-md">
+      
+      <Card className="w-full max-w-md relative">
+      <div className="absolute top-8 cursor-pointer w-20 h-10 text-4xl  left-5  bg-blueGray-800 "
+      onClick={() => router.push("/")}
+      >
+        <ChevronLeft style={{
+          scale: "1.5",
+        }}/>
+      </div>
         <CardHeader className="space-y-2 text-center">
+        
           <div className="flex justify-center"></div>
           <CardTitle className="text-2xl">Cyber Safe Girl</CardTitle>
           <CardDescription>

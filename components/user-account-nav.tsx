@@ -20,8 +20,8 @@ export function UserAccountNav() {
   const router = useRouter()
 
   const handleLogout = () => {
-    logout()
-    router.push("/login")
+    logout();
+    router.push("/");
   }
 
   if (!user) {
