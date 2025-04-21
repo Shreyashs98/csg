@@ -552,7 +552,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <section
           id="home"
-          className="relative pt-16 items-center flex min-h-[90vh]"
+          className="relative items-center flex min-h-[90vh]"
         >
           <div className="container mx-auto items-center flex flex-wrap">
             <motion.div
@@ -561,7 +561,7 @@ export default function HomePage() {
               transition={{ duration: 0.8 }}
               className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4"
             >
-              <div className="pt-32 sm:pt-0">
+              <div className="sm:pt-0">
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -645,7 +645,7 @@ export default function HomePage() {
 
           <motion.div
             style={{ opacity, scale }}
-            className="absolute top-0 right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-[80vh] hidden md:block"
+            className="absolute top-0 right-0 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-[80vh] hidden md:block"
           >
             <Image
               src="https://cybersafegirl.vercel.app/static/media/pattern_react.01996482038c959aba34.png"
