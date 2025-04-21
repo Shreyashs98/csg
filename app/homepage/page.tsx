@@ -111,7 +111,7 @@ const ModuleCarousel = ({ imagesPerSlide = 4 }) => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold">Modules</h2>
-          <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+          <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
         </motion.div>
 
         <Slider {...getSliderSettings(imagesPerSlide)}>
@@ -153,7 +153,7 @@ const PosterCarousel = ({ imagesPerSlide = 4 }) => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold">Posters</h2>
-          <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+          <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
           <p className="mt-4 text-gray-600 dark:text-gray-300">
             Click on each poster to view or download
           </p>
@@ -312,13 +312,13 @@ export default function HomePage() {
       <div className="hidden md:block bg-gray-900 text-white py-2">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            {/* <Mail className="h-4 w-4 mr-2" />
+            <Mail className="h-4 w-4 mr-2" />
             <a
               href="mailto:support@cybersafegirl.com"
-              className="text-sm hover:text-rose-400 transition-colors"
+              className="text-sm hover:text-blue-400 transition-colors"
             >
               support@cybersafegirl.com
-            </a> */}
+            </a>
           </div>
           <div className="flex space-x-4">
             {/* Social links can be added here if needed */}
@@ -333,7 +333,7 @@ export default function HomePage() {
             {/* <motion.div
               whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.1 }}
               transition={{ duration: 0.5 }}
-              className="bg-rose-600 text-white rounded-md p-1"
+              className="bg-blue-600 text-white rounded-md p-1"
             >
               <Shield className="h-6 w-6" />
             </motion.div> */}
@@ -602,7 +602,7 @@ export default function HomePage() {
                       // Toggle menu on click
                     >
                       <span
-                        className={`absolute inset-0 bg-gradient-to-r from-rose-500 to-pink-500 ${
+                        className={`absolute inset-0 bg-gradient-to-r from-blue-500 to-pink-500 ${
                           isEbookMenuOpen ? "opacity-20" : "opacity-0"
                         } transition-opacity duration-300`}
                       ></span>
@@ -626,7 +626,7 @@ export default function HomePage() {
                     )}
                   </div>
                   <Button
-                    className="relative overflow-hidden bg-gradient-to-r from-[#87ABC2] to-[#55A0E3] hover:from-rose-700 hover:to-pink-700 transition-all duration-300"
+                    className="relative overflow-hidden bg-gradient-to-r from-[#87ABC2] to-[#55A0E3] hover:from-blue-700 hover:to-pink-700 transition-all duration-300"
                     style={{
                       transform:
                         isHovered === "cert" ? "scale(1.05)" : "scale(1)",
@@ -695,7 +695,7 @@ export default function HomePage() {
               className="text-center mb-16"
             >
               <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
-              <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+              <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
             </motion.div>
 
             <div className="flex flex-wrap items-center">
@@ -779,7 +779,7 @@ export default function HomePage() {
               className="text-center mb-16"
             >
               <h2 className="text-3xl md:text-4xl font-bold">Our Impact</h2>
-              <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+              <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -791,7 +791,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center"
               >
-                <div className="text-4xl font-bold text-rose-600 mb-2">
+                <div className="text-4xl font-bold text-blue-600 mb-2">
                   500,000+
                 </div>
                 <div className="text-xl font-semibold">Enrolled Users</div>
@@ -805,7 +805,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center"
               >
-                <div className="text-4xl font-bold text-rose-600 mb-2">50+</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">50+</div>
                 <div className="text-xl font-semibold">Chapters / Episodes</div>
               </motion.div>
 
@@ -817,7 +817,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center"
               >
-                <div className="text-4xl font-bold text-rose-600 mb-2">
+                <div className="text-4xl font-bold text-blue-600 mb-2">
                   125,000+
                 </div>
                 <div className="text-xl font-semibold">Certified Users</div>
@@ -831,7 +831,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center"
               >
-                <div className="text-4xl font-bold text-rose-600 mb-2">
+                <div className="text-4xl font-bold text-blue-600 mb-2">
                   3,000,000+
                 </div>
                 <div className="text-xl font-semibold">
@@ -857,7 +857,7 @@ export default function HomePage() {
               className="text-center mb-16"
             >
               <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>
-              <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+              <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
             </motion.div>
 
             <div className="flex flex-wrap items-center">
@@ -1013,7 +1013,7 @@ export default function HomePage() {
               className="text-center mb-16"
             >
               <h2 className="text-3xl md:text-4xl font-bold">Our Associates</h2>
-              <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+              <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
             </motion.div>
 
             <div className="flex flex-wrap items-center">
@@ -1162,7 +1162,7 @@ export default function HomePage() {
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.8 }}
                   whileHover={{ scale: 1.02 }}
-                  className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-2xl rounded-lg bg-gradient-to-r from-rose-600 to-pink-600 p-12"
+                  className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-2xl rounded-lg bg-gradient-to-r from-blue-600 to-pink-600 p-12"
                 >
                   <div className="flex flex-wrap justify-center text-center">
                     <div className="w-full lg:w-8/12 px-4">
@@ -1180,7 +1180,7 @@ export default function HomePage() {
                         whileTap={{ scale: 0.95 }}
                       >
                         <Button
-                          className="mt-6 bg-white text-rose-600 hover:bg-gray-100 transition-all duration-300"
+                          className="mt-6 bg-white text-blue-600 hover:bg-gray-100 transition-all duration-300"
                           onClick={() => router.push("/login")}
                         >
                           Get Started
@@ -1221,7 +1221,7 @@ export default function HomePage() {
               className="text-center mb-12"
             >
               <h2 className="text-4xl font-bold">Contact Us</h2>
-              <div className="mt-4 h-1 w-24 bg-rose-600 mx-auto rounded-full"></div>
+              <div className="mt-4 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
             </motion.div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Our Address */}
@@ -1237,8 +1237,8 @@ export default function HomePage() {
                 }}
                 className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md text-center"
               >
-                <div className="mx-auto bg-rose-100 dark:bg-rose-900 rounded-full w-16 h-16 flex items-center justify-center mb-4">
-                  <MapPin className="h-8 w-8 text-rose-600 dark:text-rose-300" />
+                <div className="mx-auto bg-blue-100 dark:bg-blue-900 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                  <MapPin className="h-8 w-8 text-blue-600 dark:text-blue-300" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Our Address</h3>
                 <p className="text-gray-600 dark:text-gray-300">
@@ -1363,7 +1363,7 @@ export default function HomePage() {
                 viewport={{ once: true }}
                 className="flex items-center gap-2 mb-4"
               >
-                {/* <div className="bg-rose-600 text-white rounded-md p-1">
+                {/* <div className="bg-blue-600 text-white rounded-md p-1">
                   <Shield className="h-6 w-6" />
                 </div> */}
                 <span className="font-bold text-xl">Cyber Safe Girl</span>
@@ -1555,7 +1555,7 @@ export default function HomePage() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={scrollToTop}
-            className="fixed bottom-8 right-8 bg-rose-600 text-white p-3 rounded-full shadow-lg z-50"
+            className="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg z-50"
             aria-label="Scroll to top"
           >
             <ArrowUp className="h-6 w-6" />
