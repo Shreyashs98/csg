@@ -34,7 +34,7 @@ const devs = [
   {
     name: "Ashwin",
     image:
-      "https://media.licdn.com/dms/image/v2/D5616AQGgW4EcuhOy3w/profile-displaybackgroundimage-shrink_200_800/B56ZUKy8dXGQAU-/0/1739642883003?e=2147483647&v=beta&t=z0EIRd_0aHp8DMGpnZOmQl6ijFKXWo48PZj8bw6m-8A",
+      "https://media.licdn.com/dms/image/v2/D5603AQHF_yCu9TCfqA/profile-displayphoto-shrink_400_400/B56ZXlRk6xGQAg-/0/1743308346331?e=1751500800&v=beta&t=9Omv1POcF2uoujvD95LXMNUFb_3pijuUu1u9wykZEuo",
     url: "https://www.linkedin.com/in/ashwinbekal",
   },
   {
